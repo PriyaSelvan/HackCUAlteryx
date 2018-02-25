@@ -47,7 +47,7 @@ for field in final:
         sys.stdout.write('~')
         k += 1
         continue
-'''
+
     #print("trying ", field)
     jso = urllib.request.urlopen(field[0]).read().decode("utf-8").replace('\n', '')
     #print (jso)
@@ -63,9 +63,9 @@ for field in final:
 
     sys.stdout.write(str(di)[int(field[2]) % len(str(di))])
     k += 1
-print("\n ", len(field))
-print("printed ", k)
-'''
+#print("\n ", len(field))
+#print("printed ", k)
 
-print(final[23])
+
+#print(final[23])
 
